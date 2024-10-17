@@ -49,4 +49,8 @@ public class Main : MonoBehaviour
     void Restart() {
         SceneManager.LoadScene("__Scene_0");
     }
+
+    static public void HERO_DIED() {
+        S.DelayedRestart();
+    }
 }
