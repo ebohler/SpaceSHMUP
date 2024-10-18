@@ -1104,6 +1104,7 @@ GameObject:
   - component: {fileID: -310444545793896887}
   - component: {fileID: -8793313334270430387}
   - component: {fileID: 6762197262586552692}
+  - component: {fileID: 2047004858428391930}
   m_Layer: 9
   m_Name: Enemy_4
   m_TagString: Untagged
@@ -1169,6 +1170,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39dc509d7c65b5845adc8882d8cc426f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  fireRate: 0.3
+  health: 10
+  score: 100
+  powerUpDropChance: 1
+  duration: 4
 --- !u!114 &-310444545793896887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1181,8 +1188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b692e15c6b5107142a4e56f4bb01e773, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boundsType: 2
-  radius: 2.5
+  boundsType: 1
+  radius: 8
   keepOnScreen: 0
   screenLocs: 0
   camWidth: 0
@@ -1199,6 +1206,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39dc509d7c65b5845adc8882d8cc426f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 10
+  fireRate: 0.3
+  health: 10
+  score: 100
+  powerUpDropChance: 1
+  duration: 4
 --- !u!114 &6762197262586552692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1214,3 +1227,16 @@ MonoBehaviour:
   showingColor: 0
   blinkCompleteTime: 0
   ignoreOnCollisionEnter: 0
+--- !u!114 &2047004858428391930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9185519998980853174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff779f476f5a3d43a5320954b31f7e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
