@@ -290,6 +290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Weapon
       objectReference: {fileID: 0}
+    - target: {fileID: 6771147111120482856, guid: 6be7c03c9587ce24c90f2d2c8e626035, type: 3}
+      propertyPath: _type
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6be7c03c9587ce24c90f2d2c8e626035, type: 3}
 --- !u!1 &705507993
@@ -574,7 +578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnEnemies: 1
   prefabEnemies:
-  - {fileID: 6217192625371338093, guid: 8b3b585cc9dbb43ff97ab0579e85fd71, type: 3}
+  - {fileID: 4558288996750662399, guid: 83c152de06b322548b21324cae714981, type: 3}
   enemySpawnPerSecond: 0.5
   enemyInsetDefault: 1.5
   gameRestartDelay: 2
