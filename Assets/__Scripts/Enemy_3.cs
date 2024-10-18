@@ -47,6 +47,7 @@ public class Enemy_3 : Enemy
 
         transform.rotation = Quaternion.Euler(u * 180, 0, 0);
 
+        u = u - 0.1f * Mathf.Sin(u * Mathf.PI * 2);
         pos = Utils.Bezier(u, points);
     }
 
