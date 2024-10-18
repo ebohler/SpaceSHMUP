@@ -758,7 +758,7 @@ MonoBehaviour:
   enemySpawnPerSecond: 0.5
   enemyInsetDefault: 1.5
   gameRestartDelay: 2
-  prefabPowerUp: {fileID: 0}
+  prefabPowerUp: {fileID: 6997015908303792918, guid: c895653700746e74b8aa5857424c1315, type: 3}
   weaponDefinitions:
   - type: 1
     letter: B

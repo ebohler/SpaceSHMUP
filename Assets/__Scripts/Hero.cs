@@ -102,10 +102,10 @@ public class Hero : MonoBehaviour
                 if (weap != null) {
                     weap.SetType(pUp.type);
                 }
-                else {
-                    ClearWeapons();
-                    weapons[0].SetType(pUp.type);
-                }
+            }
+            else {
+                ClearWeapons();
+                weapons[0].SetType(pUp.type);
             }
             break;
         }

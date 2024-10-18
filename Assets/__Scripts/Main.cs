@@ -71,10 +71,10 @@ public class Main : MonoBehaviour
 
     static public WeaponDefinition GET_WEAPON_DEFINITION(eWeaponType wt) {
         if (WEAP_DICT.ContainsKey(wt)) {
-            return(WEAP_DICT[wt]);
+            return (WEAP_DICT[wt]);
         }
 
-        return(new WeaponDefinition());
+        return (new WeaponDefinition());
     }
 
     static public void SHIP_DESTROYED(Enemy e) {
