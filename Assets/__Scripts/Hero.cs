@@ -97,15 +97,12 @@ public class Hero : MonoBehaviour
             break;
 
         default:
-            if (pUp.type == weapons[0].type) {
-                Weapon weap = GetEmptyWeaponSlot();
-                if (weap != null) {
-                    weap.SetType(pUp.type);
-                }
+            Weapon weap = GetEmptyWeaponSlot();
+            if (weap != null) {
+                weap.SetType(pUp.type);
             }
             else {
-                ClearWeapons();
-                weapons[0].SetType(pUp.type);
+                weapons[Random.Range(0,4)].SetType(pUp.type);
             }
             break;
         }
